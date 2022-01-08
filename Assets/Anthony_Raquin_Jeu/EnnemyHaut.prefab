@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2881719646511540189}
   - component: {fileID: 8134937821868512665}
   - component: {fileID: 2881719646511540188}
-  - component: {fileID: 6883129445973858918}
   - component: {fileID: -7144616651877907370}
   m_Layer: 0
   m_Name: EnnemyHaut
@@ -51,6 +50,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -129,19 +129,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0bd0837516829c4295bd1bd379185ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vitesse: 2.5
---- !u!114 &6883129445973858918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2881719646511540195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6ea49b082df7154f9d64705b5f6a70f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &-7144616651877907370

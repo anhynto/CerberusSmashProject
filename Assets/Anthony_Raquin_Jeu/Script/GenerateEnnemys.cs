@@ -9,7 +9,7 @@ public class GenerateEnnemys : MonoBehaviour
     //private int cptEnnemy = 0;
 
     private float tempsDernierSpawn = 0.0f; // stock le temps passé depuis la derniere execution;
-    private float delai = 1f;	// tu defini l'interval voulu, en seconde.
+    private float delai = 100f;	// tu defini l'interval voulu, en seconde.
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +21,12 @@ public class GenerateEnnemys : MonoBehaviour
     void Update()
     {
 
-            tempsDernierSpawn += Time.fixedDeltaTime;  // ajoute a chaque update le temps écoulé depuis le dernier Update		
+            tempsDernierSpawn += Time.maximumDeltaTime ;  // ajoute a chaque update le temps écoulé depuis le dernier Update		
             if (tempsDernierSpawn > delai)
             {
                 Instantiate(prefabEnnemy);
                 //cptEnnemy++;
-                tempsDernierSpawn = 0;
+                tempsDernierSpawn = 0f;
             }
 
     }

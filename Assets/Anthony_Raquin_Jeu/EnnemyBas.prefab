@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8662242621534013126}
   - component: {fileID: 8662242621534013127}
   - component: {fileID: 8662242621534013120}
-  - component: {fileID: 8662242621534013123}
   - component: {fileID: 8662242621534013122}
   - component: {fileID: 3980755201105294227}
   m_Layer: 0
@@ -51,6 +50,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -119,18 +119,6 @@ CapsuleCollider:
   m_Height: 1.4075384
   m_Direction: 1
   m_Center: {x: -0.012713671, y: 0.7962308, z: 0}
---- !u!114 &8662242621534013123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8662242621534013124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6ea49b082df7154f9d64705b5f6a70f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8662242621534013122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8bd9b0c56d64434ba54f95b6b1298c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vitesse: 1.5
 --- !u!54 &3980755201105294227
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -23,7 +23,8 @@ public class ListePositionBas : MonoBehaviour
         listPositions.Add(traj3);
         listPositions.Add(traj4);
 
-        vitesse = Random.Range(1f, 5f);
+        //vitesse = Random.Range(1f, 5f);
+        vitesse = 0.5f;
 
         traj = Random.Range(0, listPositions.Count);
 

@@ -17,7 +17,8 @@ public class ListePositionHaut : MonoBehaviour
         listPositions.Add(new Vector3(4, 1.25f, 0));
         listPositions.Add(new Vector3(7, 0, 0));
 
-        vitesse = Random.Range(1f, 5f);
+        //vitesse = Random.Range(1f, 5f);
+        vitesse = 0.5f;
 
         this.transform.position = listPositions[0];
     }
