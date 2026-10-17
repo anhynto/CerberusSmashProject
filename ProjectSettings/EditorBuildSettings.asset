@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Anthony_Raquin_Jeu/Scenes/MenuScene.unity
+    path: Assets/Scenes/MenuScene.unity
     guid: 09f6fe7c3fd9d7347857bc0391f2e6c7
   - enabled: 1
-    path: Assets/Anthony_Raquin_Jeu/Scenes/GameScene.unity
+    path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Anthony_Raquin_Jeu/Scenes/GameOverScene.unity
+    path: Assets/Scenes/GameOverScene.unity
     guid: 34172ed9fd1c6b7488b07e7e2cd32631
   m_configObjects: {}
